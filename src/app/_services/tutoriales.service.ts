@@ -9,7 +9,7 @@ import { Tutorial } from '../_models/tutorial.model';
 })
 export class TutorialesService {
 
-  private baseUrl = 'http://localhost:9090/api/tutorials/';
+  private baseUrl = 'http://ec2-18-206-140-180.compute-1.amazonaws.com:9090/api/tutorials/';
 
   constructor(private http: HttpClient) { }
  
