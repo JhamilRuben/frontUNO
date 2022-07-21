@@ -9,8 +9,8 @@ import { Evaluacion } from '../_models/evaluacion.model';
 })
 export class EvaluacionService {
 
-  private baseUrl = 'http://localhost:9090/api/evaluaciones/';
-  private baseUrldos = 'http://localhost:9090/api/evaluaciones/evaluacion';
+  private baseUrl = 'http://ec2-3-82-244-54.compute-1.amazonaws.com:9090/api/evaluaciones/';
+  private baseUrldos = 'http://ec2-3-82-244-54.compute-1.amazonaws.com:9090/api/evaluaciones/evaluacion';
 
   constructor(private http: HttpClient) { }
  
