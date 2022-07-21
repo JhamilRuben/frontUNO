@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const API_URL = 'http://localhost:9090/api/test/';
+const API_URL = 'http://ec2-3-82-244-54.compute-1.amazonaws.com:9090/api/test/';
 
 @Injectable({
   providedIn: 'root'
