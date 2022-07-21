@@ -29,7 +29,7 @@ export class UserService {
   }
 
   findByIddd(id: any): Observable<any> {
-    return this.http.get<any>(`http://localhost:9090/api/usuarios/yyy/idd`);
+    return this.http.get<any>(`http://ec2-3-82-244-54.compute-1.amazonaws.com:9090/api/usuarios/yyy/idd`);
   }
 
 
