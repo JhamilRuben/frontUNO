@@ -9,8 +9,10 @@ import { PPP } from '../_models/PPP.model';
 })
 export class PPPService {
 
-  private baseUrl = 'http://localhost:9090/api/ppps/';
-  private baseUrldos = 'http://localhost:9090/api/ppps/idTutor';
+//   private baseUrl = 'http://localhost:9090/api/ppps/';
+//   private baseUrldos = 'http://localhost:9090/api/ppps/idTutor';
+  private baseUrl = 'http://ec2-3-82-244-54.compute-1.amazonaws.com:9090//api/ppps/';
+  private baseUrldos = 'http://ec2-3-82-244-54.compute-1.amazonaws.com:9090//api/ppps/idTutor';
 
   constructor(private http: HttpClient) { }
  
