@@ -11,8 +11,8 @@ import * as firebasedos from 'firebase';
 })
 export class EvaluacionService {
 
-  private baseUrl = 'http://localhost:9090/api/evaluaciones/';
-  private baseUrldos = 'http://localhost:9090/api/evaluaciones/evaluacion';
+  private baseUrl = 'http://ec2-18-206-140-180.compute-1.amazonaws.com:9090/api/evaluaciones/';
+  private baseUrldos = 'http://ec2-18-206-140-180.compute-1.amazonaws.com:9090/api/evaluaciones/evaluacion';
 
 
   private storareRef = firebasedos.app().storage().ref();
